@@ -1,0 +1,46 @@
+XTerm*selectToClipboard: true
+xterm*faceName: ctrld:size=9:antialias=false
+
+XTerm*metaSendsEscape: true
+XTerm*eightBitInput: false
+
+xterm*background: #151515
+xterm*foreground: #888888
+! Black
+xterm*color0: #1C1C1C
+xterm*color8: #404040
+! Red
+xterm*color1: #B85335
+xterm*color9: #CF6A4C
+! Green
+xterm*color2: #799D6A
+xterm*color10: #99AD6A
+! Yellow
+xterm*color3: #FFB964
+xterm*color11: #FAD07A
+! Blue
+xterm*color4: #667899
+xterm*color12: #8197BF
+! Magenta
+xterm*color5: #8787AF
+xterm*color13: #C6B6EE
+! Cyan
+xterm*color6: #668799
+xterm*color14: #8FBFDC
+! White
+xterm*color7: #888888
+xterm*color15: #E8E8D3
+xterm*utf8: 2
+
+xterm*VT100.Translations: #override \
+                 Ctrl Shift <Key>V:    insert-selection(SELECT) \n\
+                 Ctrl Shift <Key>C:    copy-selection(SELECT)
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:ad151515, #151515, #1c1a1a
+rofi.color-normal: #1c1a1a, #888888, #1c1a1a, #586e75, #eee8d5
+rofi.color-active: #1c1a1a, #268bd2, #eee8d5, #268bd2, #fdf6e3
+rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
