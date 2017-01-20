@@ -1,3 +1,6 @@
 [submodule "i3pystatus-config"]
 	path = i3pystatus-config
 	url = git@github.com:mohamed-aziz/i3pystatus-config.git
+[submodule "emacs-config"]
+	path = emacs-config
+	url = git@github.com:mohamed-aziz/emacs-config.git
